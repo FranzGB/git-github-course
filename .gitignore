@@ -4,4 +4,4 @@
 # But not these files...
 # We will ignore everything but gitignore and README file
 !.gitignore
-!README.md
+!*.md
