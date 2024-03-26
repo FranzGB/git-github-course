@@ -37,10 +37,13 @@ To install Git, you can download it from the [official website](https://git-scm.
 1. `git status`: Check the status of the repository
 1. `git add .`: Add all files to the staging area
 1. `git commit -m "message"`: Commit changes to the repository
+1. `git commit --amend`: Amend the last commit with new changes
+1. `git status`: Check the status of the repository
 1. `git log`: View the commit history
 1. `git checkout <branch>`: Switch to a different branch. If you want to create a new branch, use the `git checkout -b <branch>` command. You can also checkout into a different commit using `git checkout <commit-hash>`.
 1. `git branch`: List all branches in the repository
 1. `git merge <branch>`: Merge changes from one branch into another branch.
+
 
 
 #### Remote commands (Easy)
