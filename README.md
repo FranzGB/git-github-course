@@ -32,13 +32,12 @@ To install Git, you can download it from the [official website](https://git-scm.
 #### Local commands (Easy)
 
 1. `git init`: Initialize a new Git repository
+1. `git status`: Check the status of the repository
 1. `git add .`: Add all files to the staging area
 1. `git commit -m "message"`: Commit changes to the repository
-1. `git commit --amend`: Amend the last commit with new changes
-1. `git status`: Check the status of the repository
 1. `git log`: View the commit history
-1. `git branch`: List all branches in the repository
 1. `git checkout <branch>`: Switch to a different branch. If you want to create a new branch, use the `git checkout -b <branch>` command. You can also checkout into a different commit using `git checkout <commit-hash>`.
+1. `git branch`: List all branches in the repository
 1. `git merge <branch>`: Merge changes from one branch into another branch.
 
 
@@ -57,8 +56,8 @@ To install Git, you can download it from the [official website](https://git-scm.
 1. `git push --force origin <branch>`: Force push changes to a remote repository. Use this command with caution as it can overwrite changes in the remote repository. A safer alternative is to use `git push --force-with-lease origin <branch>`. If the remote branch has the same value as the remote branch on your local machine- you will overwrite remote. If it doesn't have the same value- it indicates a change that someone else made to the remote branch while you were working on your code and thus will not overwrite any code.
 1. `git fetch`: Fetch changes from a remote repository without merging them into the local repository.
 1. `git stash`: Stash changes that are not ready to be committed. You can apply the changes later using `git stash apply`.
+1. `git commit --amend`: Amend the last commit with new changes
 
-### Useful Git Resources
 
 ## Github
 
@@ -71,4 +70,36 @@ GitHub is a web-based platform that allows you to host your Git repositories onl
 GitHub is a powerful tool that can help you manage your codebase and collaborate with other developers. It provides a graphical interface for managing your codebase and allows you to collaborate with other developers. GitHub also provides features such as issues, pull requests, and project boards that can help you manage your projects more effectively. It is a great tool for managing your codebase and collaborating with other developers.
 
 ### Creating a Github Repository
+
+Here’s a step-by-step guide on how to create a new repository on GitHub:
+
+### 1. Sign In to GitHub
+First, you need to sign in to your GitHub account. If you don't have an account, you will need to create one at [github.com](https://github.com/).
+
+### 2. Create a New Repository
+- Once logged in, navigate to your GitHub dashboard. You can create a new repository by clicking the "+" icon in the top-right corner of the page and selecting "New repository" from the dropdown menu.
+- Alternatively, you can go directly to the new repository page using this URL: [https://github.com/new](https://github.com/new).
+
+### 3. Configure Your Repository
+- **Repository Name**: Enter a unique name for your repository. This name will be part of the URL for your repository.
+- **Description** (optional): Provide a brief description of your project. This helps others understand what your project is about and can be found in search results.
+- **Visibility**: Choose whether your repository will be public (visible to anyone) or private (visible only to you and those you grant access).
+- **Initialize this repository with**: Although optional, it’s often helpful to initialize the repository with a README file, which can include information about your project. You can also add a `.gitignore` file, which specifies intentionally untracked files to ignore, and choose a license for your project.
+
+### 4. Create Repository
+- After configuring your repository, click the "Create repository" button at the bottom of the page.
+
+### 5. Clone the Repository (Optional)
+- Once the repository is created, you may want to clone it to your local machine to start working on your project. You can do this by clicking the "Code" button on your repository page, copying the URL provided, and then using the command `git clone <repository-url>` in your terminal or command prompt.
+
+### Key Points
+- **README.md**: A Markdown file where you can introduce and explain your project. It supports formatting and can contain images, links, and structured documentation.
+- **.gitignore**: A text file listing files or directories that Git should ignore. Useful for excluding local configuration files, build directories, or files containing sensitive information.
+- **License**: Choosing a license is important if you intend to share your code. It defines how others can use, modify, and distribute your code.
+
+Creating a GitHub repository not only allows for version control and code management but also opens up collaboration opportunities, issue tracking, and the integration of various development tools and CI/CD pipelines. GitHub’s interface and documentation provide comprehensive support, making it accessible for developers of all skill levels.
+
+### Fork
+A fork in Git is essentially a copy of a repository that allows you to freely experiment with changes without affecting the original project. This concept is widely utilized in open-source development on platforms like GitHub, where forking a repository enables you to make your own modifications, add new features, or fix bugs in the project independently of the main repository.
+
 
