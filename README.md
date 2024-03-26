@@ -24,8 +24,10 @@ To install Git, you can download it from the [official website](https://git-scm.
 - **Merge**: A merge is the process of combining two branches into one. It allows you to integrate changes from one branch into another branch.
 - **Pull Request [PR]**: A pull request is a request to merge changes from one branch into another branch. It allows you to review the changes before merging them into the main branch.
 - **Stage**: The stage is a temporary storage area in Git where you can add changes before committing them to the repository.
+- **Head**: The term HEAD refers to the current snapshot of the branch you're working on, essentially pointing to the latest commit made on that branch.
 - **Stash**: The stash is a temporary storage area in Git where you can store changes that are not ready to be committed. It allows you to save changes and apply them later.
 - **Remote**: A remote is a copy of a Git repository that is hosted on a server. It allows you to collaborate with other developers and share your codebase with them.
+
 
 ### Basic Git Commands
 
