@@ -53,4 +53,20 @@ To install Git, you can download it from the [official website](https://git-scm.
 1. `git cherry-pick <commit-hash>`: Apply changes from a specific commit to the current branch
 1. `git reset --hard <commit-hash>`: Reset the repository to a specific commit
 1. `git push --force origin <branch>`: Force push changes to a remote repository. Use this command with caution as it can overwrite changes in the remote repository. A safer alternative is to use `git push --force-with-lease origin <branch>`. If the remote branch has the same value as the remote branch on your local machine- you will overwrite remote. If it doesn't have the same value- it indicates a change that someone else made to the remote branch while you were working on your code and thus will not overwrite any code.
-1. `git fetch`: Fetch changes from a remote repository without merging them into the local repository
+1. `git fetch`: Fetch changes from a remote repository without merging them into the local repository.
+1. `git stash`: Stash changes that are not ready to be committed. You can apply the changes later using `git stash apply`.
+
+### Useful Git Resources
+
+## Github
+
+### What is Github?
+
+GitHub is a web-based platform that allows you to host your Git repositories online. It provides a graphical interface for managing your codebase and collaborating with other developers. GitHub is widely used by developers to share their codebase, collaborate on projects, and contribute to open-source projects. It is a powerful tool that can help you manage your codebase and collaborate with other developers.
+
+### Why use Github?
+
+GitHub is a powerful tool that can help you manage your codebase and collaborate with other developers. It provides a graphical interface for managing your codebase and allows you to collaborate with other developers. GitHub also provides features such as issues, pull requests, and project boards that can help you manage your projects more effectively. It is a great tool for managing your codebase and collaborating with other developers.
+
+### Creating a Github Repository
+
