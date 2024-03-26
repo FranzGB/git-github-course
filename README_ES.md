@@ -1,4 +1,5 @@
 # Git & Github Tutorial
+[Spanish Version](README_ES.md)
 # Tutorial de Git y Github
 ## Git
 
@@ -39,6 +40,7 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 1. `git branch`: Lista todas las ramas en el repositorio
 1. `git checkout <branch>`: Cambia a una rama diferente. Si deseas crear una nueva rama, utiliza el comando `git checkout -b <branch>`. También puedes cambiar a un commit diferente utilizando `git checkout <commit-hash>`.
 1. `git merge <branch>`: Fusiona los cambios de una rama en otra rama.
+1. `git commit --amend`: Modifica el commit más reciente, permitiéndote cambiar el mensaje del commit o agregar cambios adicionales.
 
 #### Comandos remotos (Fácil)
 
@@ -55,6 +57,7 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 1. `git push --force origin <branch>`: Envía los cambios al repositorio remoto de forma forzada. Utiliza este comando con precaución, ya que puede sobrescribir cambios en el repositorio remoto. Una alternativa más segura es utilizar `git push --force-with-lease origin <branch>`. Si la rama remota tiene el mismo valor que la rama remota en tu máquina local, sobrescribirás el remoto. Si no tiene el mismo valor, indica un cambio que alguien más realizó en la rama remota mientras estabas trabajando en tu código y, por lo tanto, no sobrescribirá ningún código.
 1. `git fetch`: Obtiene los cambios de un repositorio remoto sin fusionarlos en el repositorio local.
 1. `git stash`: Guarda los cambios que no están listos para ser confirmados. Puedes aplicar los cambios más tarde utilizando `git stash apply`.
+
 
 ### Recursos útiles de Git
 
