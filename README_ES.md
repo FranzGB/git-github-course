@@ -1,5 +1,5 @@
 # Git & Github Tutorial
-[Spanish Version](README_ES.md)
+[Version en Ingles](README.md)
 # Tutorial de Git y Github
 ## Git
 
