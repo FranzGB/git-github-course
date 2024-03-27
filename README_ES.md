@@ -123,13 +123,15 @@ Los issues en GitHub son una forma de realizar un seguimiento de tareas, mejoras
     - `gh issue create`: Crea un nuevo issue.
     - `gh repo clone <nombre-repositorio>`: Clona un repositorio de Github.
 
-2. Utiliza las Github Actions para automatizar tareas en tu repositorio de Github. Puedes configurar acciones para ejecutar pruebas, realizar despliegues, notificar a los colaboradores y mucho más. Puedes encontrar más información sobre las Github Actions en la [documentación oficial](https://docs.github.com/en/actions).
+2. Utiliza alias en Git para abreviar comandos comunes. Puedes configurar alias en tu archivo `.gitconfig` para abreviar comandos largos y repetitivos. Por ejemplo, puedes configurar un alias `co` para `checkout` o `ci` para `commit`. Esto te permite escribir menos y ser más eficiente al trabajar con Git.
 
-3. Github Codespaces te permite crear un entorno de desarrollo basado en la nube directamente desde tu navegador. Puedes acceder a tu código, editar archivos y ejecutar comandos en un entorno de desarrollo completamente funcional sin necesidad de configurar un entorno local. Puedes obtener más información sobre Github Codespaces en la [documentación oficial](https://docs.github.com/en/codespaces).
+3. Utiliza las Github Actions para automatizar tareas en tu repositorio de Github. Puedes configurar acciones para ejecutar pruebas, realizar despliegues, notificar a los colaboradores y mucho más. Puedes encontrar más información sobre las Github Actions en la [documentación oficial](https://docs.github.com/en/actions).
 
-4. Github Projects te permite organizar y priorizar tu trabajo en Github. Puedes crear tableros de proyectos, agregar tarjetas para tareas y problemas, y colaborar con otros miembros del equipo en un entorno visual. Puedes obtener más información sobre Github Projects en la [documentación oficial](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/about-project-boards).
+4. Github Codespaces te permite crear un entorno de desarrollo basado en la nube directamente desde tu navegador. Puedes acceder a tu código, editar archivos y ejecutar comandos en un entorno de desarrollo completamente funcional sin necesidad de configurar un entorno local. Puedes obtener más información sobre Github Codespaces en la [documentación oficial](https://docs.github.com/en/codespaces).
 
-5. Como estudiantes o profesores, puedes obtener beneficios adicionales de Github a través de [GitHub Education](https://education.github.com/). Esto incluye acceso a herramientas y recursos gratuitos para la educación, así como la posibilidad de obtener paquetes de Github Pro gratuitos. Y acceso a Github Copilot de manera gratuita.
+5. Github Projects te permite organizar y priorizar tu trabajo en Github. Puedes crear tableros de proyectos, agregar tarjetas para tareas y problemas, y colaborar con otros miembros del equipo en un entorno visual. Puedes obtener más información sobre Github Projects en la [documentación oficial](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/about-project-boards).
+
+6. Como estudiantes o profesores, puedes obtener beneficios adicionales de Github a través de [GitHub Education](https://education.github.com/). Esto incluye acceso a herramientas y recursos gratuitos para la educación, así como la posibilidad de obtener paquetes de Github Pro gratuitos. Y acceso a Github Copilot de manera gratuita.
 
 ### Buenas prácticas
 
