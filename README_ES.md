@@ -1,4 +1,5 @@
 # Git & Github Tutorial
+
 [Version en Ingles](README.md)
 
 ## Git
@@ -74,29 +75,35 @@ GitHub es una herramienta poderosa que puede ayudarte a gestionar tu código y c
 Aquí tienes una guía paso a paso sobre cómo crear un nuevo repositorio en GitHub:
 
 #### 1. Inicia sesión en GitHub
+
 Primero, debes iniciar sesión en tu cuenta de GitHub. Si no tienes una cuenta, deberás crear una en [github.com](https://github.com/).
 
 #### 2. Crea un nuevo repositorio
+
 - Una vez que hayas iniciado sesión, ve a tu panel de control de GitHub. Puedes crear un nuevo repositorio haciendo clic en el icono "+" en la esquina superior derecha de la página y seleccionando "New repository" en el menú desplegable.
 - Alternativamente, puedes ir directamente a la página de creación de repositorios utilizando esta URL: [https://github.com/new](https://github.com/new).
 
 #### 3. Configura tu repositorio
+
 - **Nombre del repositorio**: Ingresa un nombre único para tu repositorio. Este nombre formará parte de la URL de tu repositorio.
 - **Descripción** (opcional): Proporciona una breve descripción de tu proyecto. Esto ayuda a otros a comprender de qué se trata tu proyecto y se puede encontrar en los resultados de búsqueda.
 - **Visibilidad**: Elige si tu repositorio será público (visible para cualquiera) o privado (visible solo para ti y aquellos a quienes les otorgues acceso).
 - **Inicializar este repositorio con**: Aunque es opcional, a menudo es útil inicializar el repositorio con un archivo README, que puede incluir información sobre tu proyecto. También puedes agregar un archivo `.gitignore`, que especifica archivos no rastreados intencionalmente para ignorar, y elegir una licencia para tu proyecto.
 
 #### 4. Crea el repositorio
+
 - Después de configurar tu repositorio, haz clic en el botón "Create repository" en la parte inferior de la página.
 
 #### 5. Clona el repositorio (opcional)
+
 - Una vez que se haya creado el repositorio, es posible que desees clonarlo en tu máquina local para comenzar a trabajar en tu proyecto. Puedes hacer esto haciendo clic en el botón "Code" en la página de tu repositorio, copiando la URL proporcionada y luego utilizando el comando `git clone <repository-url>` en tu terminal o símbolo del sistema.
 
 #### Puntos clave
+
 - **README.md**: Un archivo Markdown donde puedes presentar y explicar tu proyecto. Admite formato y puede contener imágenes, enlaces y documentación estructurada.
 - **.gitignore**: Un archivo de texto que enumera archivos o directorios que Git debe ignorar. Útil para excluir archivos de configuración local, directorios de compilación o archivos que contienen información confidencial.
 - **Licencia**: Elegir una licencia es importante si tienes la intención de compartir tu código. Define cómo otros pueden usar, modificar y distribuir tu código.
 
 ### Fork
-Un fork en Git es esencialmente una copia de un repositorio que te permite experimentar libremente con cambios sin afectar el proyecto original. Este concepto se utiliza ampliamente en el desarrollo de código abierto en plataformas como GitHub, donde hacer un fork de un repositorio te permite hacer tus propias modificaciones, agregar nuevas características o corregir errores en el proyecto de forma independiente al repositorio principal.
 
+Un fork en Git es esencialmente una copia de un repositorio que te permite experimentar libremente con cambios sin afectar el proyecto original. Este concepto se utiliza ampliamente en el desarrollo de código abierto en plataformas como GitHub, donde hacer un fork de un repositorio te permite hacer tus propias modificaciones, agregar nuevas características o corregir errores en el proyecto de forma independiente al repositorio principal.

@@ -1,5 +1,7 @@
 # Git & Github Tutorial
+
 [Spanish Version](README_ES.md)
+
 ## Git
 
 ### What is Git?
@@ -28,7 +30,6 @@ To install Git, you can download it from the [official website](https://git-scm.
 - **Stash**: The stash is a temporary storage area in Git where you can store changes that are not ready to be committed. It allows you to save changes and apply them later.
 - **Remote**: A remote is a copy of a Git repository that is hosted on a server. It allows you to collaborate with other developers and share your codebase with them.
 
-
 ### Basic Git Commands
 
 #### Local commands (Easy)
@@ -43,8 +44,6 @@ To install Git, you can download it from the [official website](https://git-scm.
 1. `git checkout <branch>`: Switch to a different branch. If you want to create a new branch, use the `git checkout -b <branch>` command. You can also checkout into a different commit using `git checkout <commit-hash>`.
 1. `git branch`: List all branches in the repository
 1. `git merge <branch>`: Merge changes from one branch into another branch.
-
-
 
 #### Remote commands (Easy)
 
@@ -63,7 +62,6 @@ To install Git, you can download it from the [official website](https://git-scm.
 1. `git stash`: Stash changes that are not ready to be committed. You can apply the changes later using `git stash apply`.
 1. `git commit --amend`: Amend the last commit with new changes
 
-
 ## Github
 
 ### What is Github?
@@ -79,30 +77,35 @@ GitHub is a powerful tool that can help you manage your codebase and collaborate
 Here’s a step-by-step guide on how to create a new repository on GitHub:
 
 #### 1. Sign In to GitHub
+
 First, you need to sign in to your GitHub account. If you don't have an account, you will need to create one at [github.com](https://github.com/).
 
 #### 2. Create a New Repository
+
 - Once logged in, navigate to your GitHub dashboard. You can create a new repository by clicking the "+" icon in the top-right corner of the page and selecting "New repository" from the dropdown menu.
 - Alternatively, you can go directly to the new repository page using this URL: [https://github.com/new](https://github.com/new).
 
 #### 3. Configure Your Repository
+
 - **Repository Name**: Enter a unique name for your repository. This name will be part of the URL for your repository.
 - **Description** (optional): Provide a brief description of your project. This helps others understand what your project is about and can be found in search results.
 - **Visibility**: Choose whether your repository will be public (visible to anyone) or private (visible only to you and those you grant access).
 - **Initialize this repository with**: Although optional, it’s often helpful to initialize the repository with a README file, which can include information about your project. You can also add a `.gitignore` file, which specifies intentionally untracked files to ignore, and choose a license for your project.
 
 #### 4. Create Repository
+
 - After configuring your repository, click the "Create repository" button at the bottom of the page.
 
 #### 5. Clone the Repository (Optional)
+
 - Once the repository is created, you may want to clone it to your local machine to start working on your project. You can do this by clicking the "Code" button on your repository page, copying the URL provided, and then using the command `git clone <repository-url>` in your terminal or command prompt.
 
 #### Key Points
+
 - **README.md**: A Markdown file where you can introduce and explain your project. It supports formatting and can contain images, links, and structured documentation.
 - **.gitignore**: A text file listing files or directories that Git should ignore. Useful for excluding local configuration files, build directories, or files containing sensitive information.
 - **License**: Choosing a license is important if you intend to share your code. It defines how others can use, modify, and distribute your code.
 
 ### Fork
+
 A fork in Git is essentially a copy of a repository that allows you to freely experiment with changes without affecting the original project. This concept is widely utilized in open-source development on platforms like GitHub, where forking a repository enables you to make your own modifications, add new features, or fix bugs in the project independently of the main repository.
-
-
