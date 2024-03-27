@@ -22,7 +22,7 @@ To install Git, you can download it from the [official website](https://git-scm.
 
 - **Repository**: A repository is a collection of files and folders that make up a project. It contains the entire history of the project and allows you to track changes in your codebase.
 - **Commit**: A commit is a snapshot of the codebase at a specific point in time. It records the changes made to the codebase and allows you to revert to previous versions if needed.
-- **Branch**: A branch is a separate line of development in a Git repository. It allows you to work on different features or bug fixes in parallel without interfering with each other's work.2
+- **Branch**: A branch is a separate line of development in a Git repository. It allows you to work on different features or bug fixes in parallel without interfering with each other's work.
 - **Merge**: A merge is the process of combining two branches into one. It allows you to integrate changes from one branch into another branch.
 - **Pull Request [PR]**: A pull request is a request to merge changes from one branch into another branch. It allows you to review the changes before merging them into the main branch.
 - **Stage**: The stage is a temporary storage area in Git where you can add changes before committing them to the repository.

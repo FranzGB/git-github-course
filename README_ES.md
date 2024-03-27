@@ -24,7 +24,7 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 - **Commit**: Un commit es una instantánea del código en un punto específico en el tiempo. Registra los cambios realizados en el código y te permite revertir a versiones anteriores si es necesario.
 - **Branch**: Un branch es una línea de desarrollo separada en un repositorio de Git. Te permite trabajar en diferentes características o correcciones de errores de forma paralela sin interferir en el trabajo de los demás.
 - **Merge**: Un merge es el proceso de combinar dos branches en uno solo. Te permite integrar cambios de un branch en otro branch.
-- **Pull Request [PR]**: Un pull request es una solicitud para fusionar cambios de un branch en otro branch. Te permite revisar los cambios antes de fusionarlos en el branch principal.
+- **Pull Request [PR]**: Un pull request es una solicitud para fusionar cambios de un branch en otro branch. Te permite revisar los cambios antes de fusionarlos en el branch principal. Esto es un termino exclusivo de Github.
 - **Stage**: El stage es un área de almacenamiento temporal en Git donde puedes agregar cambios antes de confirmarlos en el repositorio.
 - **Head**: El término HEAD se refiere a la instantánea actual del branch en el que estás trabajando, esencialmente apuntando al último commit realizado en ese branch.
 - **Stash**: El stash es un área de almacenamiento temporal en Git donde puedes guardar cambios que no están listos para ser confirmados. Te permite guardar cambios y aplicarlos más tarde.
@@ -41,7 +41,7 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 5. `git log`: Muestra el historial de commits.
 6. `git checkout <branch>`: Cambia a un branch diferente. Si deseas crear un nuevo branch, utiliza el comando `git checkout -b <branch>`. También puedes cambiar a un commit diferente utilizando `git checkout <commit-hash>`.
 7. `git branch`: Lista todos los branches en el repositorio.
-8. `git merge <branch>`: Fusiona los cambios de un branch en otro branch.
+8. `git merge <branch>`: Fusiona los cambios de un branch en otro branch. **Crea un nuevo commit**.
 
 #### Comandos remotos (Fáciles)
 
@@ -54,8 +54,8 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 
 1. `git rebase <branch>`: Rebasea los cambios de un branch en otro branch.
 2. `git cherry-pick <commit-hash>`: Aplica los cambios de un commit específico al branch actual.
-3. `git reset --hard <commit-hash>`: Restablece el repositorio a un commit específico.
-4. `git push --force origin <branch>`: Envía los cambios al repositorio remoto de forma forzada. Utiliza este comando con precaución, ya que puede sobrescribir cambios en el repositorio remoto. Una alternativa más segura es utilizar `git push --force-with-lease origin <branch>`. Si el branch remoto tiene el mismo valor que el branch remoto en tu máquina local, sobrescribirás el branch remoto. Si no tiene el mismo valor, indica un cambio que alguien más realizó en el branch remoto mientras estabas trabajando en tu código y, por lo tanto, no sobrescribirás ningún código.
+3. `git reset --hard <commit-hash>`: Restablece el repositorio a un commit específico. Existen tres tipos de reset: `--soft`, `--mixed` y `--hard`. `--soft` mantiene los cambios en el área de preparación, `--mixed` mantiene los cambios en el área de trabajo y `--hard` elimina los cambios. Por defecto, es decir si no pasas una flag, se utiliza `--mixed`.
+4. `git push --force origin <branch>`: Envía los cambios al repositorio remoto de forma forzada. Utiliza este comando con precaución, ya que puede sobrescribir cambios en el repositorio remoto. Una alternativa más segura es utilizar `git push --force-with-lease origin <branch>`. Con esta flag, si el branch remoto tiene el mismo valor que el branch remoto en tu máquina local, sobrescribirás el branch remoto. Si no tiene el mismo valor, indica un cambio que alguien más realizó en el branch remoto mientras estabas trabajando en tu código y, por lo tanto, no sobrescribirás ningún código.
 5. `git fetch`: Obtiene los cambios de un repositorio remoto sin fusionarlos en el repositorio local.
 6. `git stash`: Guarda cambios que no están listos para ser confirmados. Puedes aplicar los cambios más tarde utilizando `git stash apply`.
 7. `git commit --amend`: Modifica el último commit con nuevos cambios.
