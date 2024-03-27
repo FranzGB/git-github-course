@@ -40,10 +40,11 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 2. `git status`: Verifica el estado del repositorio.
 3. `git add .`: Agrega todos los archivos al área de preparación (staging area).
 4. `git commit -m "mensaje"`: Confirma los cambios en el repositorio.
-5. `git log`: Muestra el historial de commits.
-6. `git checkout <branch>`: Cambia a un branch diferente. Si deseas crear un nuevo branch, utiliza el comando `git checkout -b <branch>`. También puedes cambiar a un commit diferente utilizando `git checkout <commit-hash>`.
-7. `git branch`: Lista todos los branches en el repositorio.
-8. `git merge <branch>`: Fusiona los cambios de un branch en otro branch.
+5. `git commit --amend`: Modifica el último commit con nuevos cambios.
+6. `git log`: Muestra el historial de commits.
+7. `git checkout <branch>`: Cambia a un branch diferente. Si deseas crear un nuevo branch, utiliza el comando `git checkout -b <branch>`. También puedes cambiar a un commit diferente utilizando `git checkout <commit-hash>`.
+8. `git branch`: Lista todos los branches en el repositorio.
+9. `git merge <branch>`: Fusiona los cambios de un branch en otro branch.
 
 #### Comandos remotos (Fáciles)
 
@@ -58,9 +59,7 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 2. `git cherry-pick <commit-hash>`: Aplica los cambios de un commit específico al branch actual.
 3. `git reset --hard <commit-hash>`: Restablece el repositorio a un commit específico. Existen tres tipos de reset: `--soft`, `--mixed` y `--hard`. `--soft` mantiene los cambios en el área de preparación, `--mixed` mantiene los cambios en el área de trabajo y `--hard` elimina los cambios. Por defecto, es decir si no pasas una flag, se utiliza `--mixed`.
 4. `git push --force origin <branch>`: Envía los cambios al repositorio remoto de forma forzada. Utiliza este comando con precaución, ya que puede sobrescribir cambios en el repositorio remoto. Una alternativa más segura es utilizar `git push --force-with-lease origin <branch>`. Con esta flag, si el branch remoto tiene el mismo valor que el branch remoto en tu máquina local, sobrescribirás el branch remoto. Si no tiene el mismo valor, indica un cambio que alguien más realizó en el branch remoto mientras estabas trabajando en tu código y, por lo tanto, no sobrescribirás ningún código.
-5. `git fetch`: Obtiene los cambios de un repositorio remoto sin fusionarlos en el repositorio local.
-6. `git stash`: Guarda cambios que no están listos para ser confirmados. Puedes aplicar los cambios más tarde utilizando `git stash apply`.
-7. `git commit --amend`: Modifica el último commit con nuevos cambios.
+5. `git stash`: Guarda cambios que no están listos para ser confirmados. Puedes aplicar los cambios más tarde utilizando `git stash apply`.
 
 ## Github
 
@@ -139,3 +138,10 @@ Los issues en GitHub son una forma de realizar un seguimiento de tareas, mejoras
 - **Crea branches para nuevas características o correcciones de errores**: Utiliza branches separados para trabajar en nuevas características o correcciones de errores. Esto te permite trabajar en paralelo sin interferir en el trabajo de los demás y facilita la revisión de los cambios antes de fusionarlos en el branch principal.
 - **Realiza pull requests para revisión de código**: Antes de fusionar cambios en el branch principal, crea un pull request para que otros revisen tus cambios. Esto te permite obtener comentarios y sugerencias sobre tus cambios antes de fusionarlos en el proyecto.
 - **Utiliza issues para realizar un seguimiento de tareas**: Utiliza issues para realizar un seguimiento de tareas, mejoras, errores y otras solicitudes de trabajo en tu proyecto. Esto te ayuda a organizar y priorizar el trabajo en tu proyecto y a mantener un registro de los problemas que necesitan ser abordados.
+- **Commit temprano y con frecuencia**: Realiza commits con frecuencia para rastrear los cambios en tu proyecto y evitar la pérdida de trabajo. Esto te permite revertir a versiones anteriores si es necesario y facilita la colaboración con otros desarrolladores.
+
+### Recursos adicionales
+
+[Git Handbook](https://guides.github.com/introduction/git-handbook/)
+[Git Best Practices](https://sethrobertson.github.io/GitBestPractices/)
+[Pro Git Book](https://git-scm.com/book/en/v2)
