@@ -30,6 +30,8 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 - **Stash**: El stash es un área de almacenamiento temporal en Git donde puedes guardar cambios que no están listos para ser confirmados. Te permite guardar cambios y aplicarlos más tarde.
 - **Remote**: Un remote es una copia de un repositorio de Git que se encuentra alojado en un servidor. Te permite colaborar con otros desarrolladores y compartir tu código con ellos.
 
+![Git Distributed System](https://codelikethis.com/lessons/git/git.png)
+
 ### Comandos básicos de Git
 
 #### Comandos locales (Fáciles)
@@ -68,7 +70,7 @@ GitHub es una plataforma basada en la web que te permite alojar tus repositorios
 
 ### ¿Por qué usar Github?
 
-GitHub es una herramienta poderosa que puede ayudarte a gestionar tu código y colaborar con otros desarrolladores. Proporciona una interfaz gráfica para gestionar tu código y te permite colaborar con otros desarrolladores. GitHub también ofrece características como issues, pull requests y project boards que pueden ayudarte a gestionar tus proyectos de manera más efectiva. Es una excelente herramienta para gestionar tu código y colaborar con otros desarrolladores.
+Github es una de los servidores web más populares para alojar repositorios de Git. Muchos repositorios de código abierto están alojados en Github, lo que facilita la colaboración y la contribución a proyectos de código abierto. Github proporciona una serie de características útiles, como la gestión de problemas, pull requests, ramas y colaboración en equipo. También ofrece integración con herramientas de CI/CD, como Github Actions, y la posibilidad de automatizar tareas en tu repositorio.
 
 ### Crear un repositorio en Github
 
@@ -107,3 +109,24 @@ Primero, debes iniciar sesión en tu cuenta de GitHub. Si no tienes una cuenta, 
 ### Fork
 
 Un fork en Git es esencialmente una copia de un repositorio que te permite experimentar libremente con cambios sin afectar el proyecto original. Este concepto se utiliza ampliamente en el desarrollo de código abierto en plataformas como GitHub, donde hacer un fork de un repositorio te permite hacer tus propias modificaciones, agregar nuevas características o corregir errores en el proyecto de forma independiente al repositorio principal.
+
+### Issues
+
+Los issues en GitHub son una forma de realizar un seguimiento de tareas, mejoras, errores y otras solicitudes de trabajo en tu repositorio. Puedes crear issues para discutir y realizar un seguimiento de problemas específicos en tu proyecto. Los issues pueden asignarse a colaboradores, etiquetarse, comentarse y cerrarse una vez que se hayan resuelto.
+
+### Pro Tips
+
+1. Usa la herramienta Github CLI para interactuar con Github desde la línea de comandos. Puedes instalarla desde [aquí](https://cli.github.com/). Comandos utiles:
+    - `gh auth`: Autentica tu sesión de Github.
+    - `gh repo create <nombre-repositorio>`: Crea un nuevo repositorio en Github.
+    - `gh pr create`: Crea un nuevo pull request.
+    - `gh issue create`: Crea un nuevo issue.
+    - `gh repo clone <nombre-repositorio>`: Clona un repositorio de Github.
+
+2. Utiliza las Github Actions para automatizar tareas en tu repositorio de Github. Puedes configurar acciones para ejecutar pruebas, realizar despliegues, notificar a los colaboradores y mucho más. Puedes encontrar más información sobre las Github Actions en la [documentación oficial](https://docs.github.com/en/actions).
+
+3. Github Codespaces te permite crear un entorno de desarrollo basado en la nube directamente desde tu navegador. Puedes acceder a tu código, editar archivos y ejecutar comandos en un entorno de desarrollo completamente funcional sin necesidad de configurar un entorno local. Puedes obtener más información sobre Github Codespaces en la [documentación oficial](https://docs.github.com/en/codespaces).
+
+4. Github Projects te permite organizar y priorizar tu trabajo en Github. Puedes crear tableros de proyectos, agregar tarjetas para tareas y problemas, y colaborar con otros miembros del equipo en un entorno visual. Puedes obtener más información sobre Github Projects en la [documentación oficial](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/about-project-boards).
+
+5. Como estudiantes o profesores, puedes obtener beneficios adicionales de Github a través de [GitHub Education](https://education.github.com/). Esto incluye acceso a herramientas y recursos gratuitos para la educación, así como la posibilidad de obtener paquetes de Github Pro gratuitos. Y acceso a Github Copilot de manera gratuita.
