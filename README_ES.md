@@ -41,7 +41,7 @@ Para instalar Git, puedes descargarlo desde el [sitio web oficial](https://git-s
 5. `git log`: Muestra el historial de commits.
 6. `git checkout <branch>`: Cambia a un branch diferente. Si deseas crear un nuevo branch, utiliza el comando `git checkout -b <branch>`. También puedes cambiar a un commit diferente utilizando `git checkout <commit-hash>`.
 7. `git branch`: Lista todos los branches en el repositorio.
-8. `git merge <branch>`: Fusiona los cambios de un branch en otro branch. **Crea un nuevo commit**.
+8. `git merge <branch>`: Fusiona los cambios de un branch en otro branch.
 
 #### Comandos remotos (Fáciles)
 
